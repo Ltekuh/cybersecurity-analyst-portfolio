@@ -1,0 +1,2 @@
+Risk ID,Asset,Threat or scenario,Vulnerability or weakness,Existing controls,Likelihood (1-5),Impact (1-5),Risk score,Recommended treatment,Owner role,Verification method,Status
+R-001,Example: employee laptop,Example: device lost,Example: disk encryption not verified,Example: screen lock,3,4,12,Verify encryption and enable device management if available,IT administrator,Check policy and device status,Example only - replace

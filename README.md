@@ -1,56 +1,71 @@
-# cybersecurity-analyst-portfolio
-Hands-on cybersecurity projects covering security operations, incident response, network analysis, Linux, SQL, Python, and risk management.
-
 # Cybersecurity Analyst Portfolio
 
-Welcome to my cybersecurity portfolio. This repository showcases my cybersecurity training, hands-on lab exercises, security investigations, and technical projects as I work toward an entry-level Cybersecurity Analyst or SOC Analyst position.
+Welcome to my cybersecurity portfolio. This repository organizes hands-on labs and learning projects related to entry-level cybersecurity analyst work.
 
-I am building my knowledge in security operations, incident response, network security, risk management, Linux administration, and security automation. Through my Google Cybersecurity Certificate training and Computer Science studies, I have developed foundational skills in identifying suspicious activity, analyzing security events, documenting incidents, and recommending security improvements.
+## About this portfolio
 
-## Technical Skills
+I completed the **Google Cybersecurity Certificate** and use this repository to document the concepts, tools, investigations, and lessons from my cybersecurity learning. The projects are educational labs and coursework unless a project explicitly states otherwise.
 
-- **Security Operations:** Security log analysis, alert triage, threat detection, IOC identification, and incident documentation.
-- **Network Security:** TCP/IP fundamentals, Wireshark, tcpdump, Suricata concepts, packet analysis, and network hardening.
-- **Risk and Compliance:** Risk assessment, risk registers, NIST SP 800-30 concepts, GDPR, and PCI DSS.
-- **Linux:** Command-line operations, file permissions, user management, and basic system investigation.
-- **Programming and Data Analysis:** Python scripting fundamentals, SQL queries, filtering, and joins.
-- **Application Security:** Vulnerability assessment, PASTA threat modeling, and remediation concepts.
-- **Security Fundamentals:** Hashing, encryption concepts, access control, and least privilege.
+## Skills explored
 
-## Featured Projects
+- **Security operations:** alert review, event triage, incident documentation, and indicators of compromise (IOCs)
+- **Network security:** TCP/IP fundamentals, packet analysis, and network traffic investigation
+- **Risk and compliance:** asset identification, risk assessment, security controls, and audit documentation
+- **Linux:** command-line navigation, users, groups, file permissions, and basic system investigation
+- **SQL:** filtering and reviewing records for security-related questions
+- **Python:** beginner-friendly scripts for repeatable tasks and simple data handling
+- **Threat modeling and application security:** identifying threats, considering impact, and documenting mitigations
 
-### 1. Incident Response and Security Investigation
-Documenting incident scenarios, investigation steps, evidence, findings, and recommended response actions.
+> Skills listed here describe topics practiced through coursework or labs. They should not be interpreted as professional work experience.
 
-### 2. Network Traffic Analysis
-Examining packet captures using Wireshark to investigate simulated DoS/SYN-flood activity and understand suspicious network patterns.
+## Project index
 
-### 3. Security Log Analysis
-Practicing security event review, alert prioritization, potential IOC identification, and false-positive analysis using sample or simulated logs.
+| Area | What I plan to document |
+|---|---|
+| [Certificate and Skills](00-certificate-and-skills/README.md) | Certificate details, learning outcomes, and a skills inventory |
+| [Security Fundamentals](01-security-fundamentals/README.md) | Core security concepts and control mapping |
+| [Risk and Compliance](02-risk-and-compliance/README.md) | Risk register, audit exercises, and control recommendations |
+| [Network Security](03-network-security/README.md) | Packet analysis, traffic observations, and network security |
+| [Linux and SQL](04-linux-and-sql/README.md) | Linux permissions and SQL practice |
+| [Detection and Incident Response](05-detection-and-incident-response/README.md) | Alert triage, incident timelines, and response reports |
+| [Python Automation](06-python-automation/README.md) | Simple scripts with sample input and output |
+| [Threat Modeling and Web Security](07-threat-modeling-and-web-security/README.md) | Threat scenarios and defensive recommendations |
+| [Security Hardening](08-security-hardening/README.md) | Hardening plans and verification checklists |
+| [Templates](templates/README.md) | Reusable documentation templates |
 
-### 4. Risk Assessment and Compliance
-Developing a risk register, evaluating potential business security risks, and documenting mitigation recommendations.
+## How to read a project
 
-### 5. Linux Security and File Investigation
-Practicing Linux permissions, system commands, file management, and basic file hash investigation.
+Each project should explain:
+1. **Objective** — the question or skill being practiced.
+2. **Environment and tools** — what was used and whether the activity was simulated.
+3. **Method** — the steps taken, written so another learner can follow them.
+4. **Evidence and findings** — sanitized screenshots, sample logs, commands, or tables.
+5. **Analysis** — what the evidence supports, and what remains uncertain.
+6. **Recommendations** — reasonable defensive next steps.
+7. **Lessons learned** — what I learned and what I would improve.
 
-### 6. Python and SQL for Security
-Developing beginner-friendly Python automation scripts and SQL queries to support data analysis and security-related tasks.
+## Tools and platforms
 
-### 7. Threat Modeling and Vulnerability Assessment
-Applying PASTA threat modeling concepts, identifying potential application threats, and documenting remediation recommendations.
+Add tools to a project's documentation only when you actually used them. Possible tools for these learning areas include Wireshark, Linux shell commands, SQL, Python, and a SIEM training environment.
 
-## How I Approach Security
+## Responsible use and privacy
 
-My approach focuses on identifying potential threats, investigating available evidence, documenting findings, recommending appropriate controls, and learning from each exercise. I am particularly interested in security operations, incident response, and the use of automation to improve security monitoring.
+- Use only authorized labs, systems, and packet captures.
+- Do not upload passwords, API keys, tokens, personal data, private network captures, or confidential course material.
+- Use fictional or sanitized examples in public reports.
+- Do not claim that a simulated event was a real attack.
+- Separate observed facts from assumptions and hypotheses.
+- Include limitations and cite any external references used.
 
-## Education and Training
+## Certificate
 
-- Bachelor of Science in Computer Science - UMGC
-- Google Cybersecurity Certificate - Completed
+**Google Cybersecurity Certificate — Completed**
 
-## Current Career Goal
+Add the official credential or certificate link here if you have one and are comfortable sharing it publicly.
 
-I am seeking an entry-level Cybersecurity Analyst, SOC Analyst I, or Junior Security Analyst opportunity where I can apply my foundational knowledge, continue developing practical skills, and contribute to protecting organizational systems and data.
+## Career focus
 
-*Note: Projects in this repository are educational exercises unless explicitly identified otherwise. No confidential information or unauthorized system data is included.*
+I am building practical foundations for entry-level Cybersecurity Analyst and SOC Analyst roles, with an emphasis on clear investigation notes, evidence-based reasoning, and actionable defensive recommendations.
+
+---
+*Portfolio status: starter structure. Project folders should be updated with verified work and findings before being described as completed.*
