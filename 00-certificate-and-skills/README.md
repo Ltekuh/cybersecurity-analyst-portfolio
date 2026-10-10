@@ -3,7 +3,7 @@
 ## Credential
 
 - **Google Cybersecurity Certificate:** Completed
-- **Credential link:** [https://coursera.org/share/584f8d0c98e41880c2213cd284639f96]
+- **Credential link:** [https://coursera.org/share/df43041e6c50ae8d4b0e68ec934fbf1c]
 - **Completion date:** [October 09, 2026]
 
 ## Modules
@@ -14,7 +14,7 @@
 - **Assets, Threats, and Vulnerabilities:** [https://coursera.org/share/346c2655fab745b5749683a4ce641597]
 - **Sound the Alarm: Detection and Response:** [https://coursera.org/share/e09d47446c2e88f748b7766ec8235f02]
 - **Automate Cybersecurity Tasks with Python:** [https://coursera.org/share/d222e50f91fbfa9c4199075234e488ea]
-- **Put It to Work: Prepare for Cybersecurity Jobs:** []
+- **Put It to Work: Prepare for Cybersecurity Jobs:** [https://coursera.org/share/ef43e771926811235d3c20f24d98a513]
 
 
 ## Skills inventory
