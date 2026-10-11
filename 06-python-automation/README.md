@@ -18,8 +18,8 @@ I built a script that reads a small access log, validates the IP addresses found
 
 ## Files in this folder
 
-- `log_analyzer.py` — the Python script
-- `sample_auth.log` — sanitized sample log input
+- `log_analyzer.py` - the Python script
+- `sample_auth.log` - sanitized sample log input
 
 ## How to run the script
 

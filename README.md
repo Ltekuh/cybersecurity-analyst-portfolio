@@ -37,13 +37,13 @@ I completed the Google Cybersecurity Certificate and built this portfolio to org
 
 Each project follows the same structure so the work stays consistent and evidence-based:
 
-1. Objective — the question or skill being practiced
-2. Environment and tools — what was used and whether it was simulated
-3. Method — the steps taken in a safe lab or authorized exercise
-4. Evidence and findings — the commands, screenshots, logs, or tables used
-5. Analysis — what the evidence supports and what remains uncertain
-6. Recommendations — realistic next steps for defense or improvement
-7. Lessons learned — what I learned and what I would improve next
+1. Objective - the question or skill being practiced
+2. Environment and tools - what was used and whether it was simulated
+3. Method - the steps taken in a safe lab or authorized exercise
+4. Evidence and findings - the commands, screenshots, logs, or tables used
+5. Analysis - what the evidence supports and what remains uncertain
+6. Recommendations - realistic next steps for defense or improvement
+7. Lessons learned - what I learned and what I would improve next
 
 ## Tools and platforms
 
@@ -60,7 +60,7 @@ I only include tools when I actually used them in a lab or practice activity. Co
 
 ## Certificate
 
-**Google Cybersecurity Certificate — Completed**
+**Google Cybersecurity Certificate - Completed**
 
 - Credential link: https://coursera.org/share/df43041e6c50ae8d4b0e68ec934fbf1c
 - Completion date: October 09, 2026
