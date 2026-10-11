@@ -4,7 +4,7 @@ Welcome to my cybersecurity portfolio. This repository captures my learning jour
 
 ## About this portfolio
 
-I completed the Google Cybersecurity Certificate and built this portfolio to organize the labs, exercises, and applied learning that support my transition toward entry-level Cybersecurity Analyst and SOC Analyst work. Each project is written as a learning record: objectives, methods, evidence, findings, and recommendations are separated so they reflect what was actually observed or practiced in a safe lab environment.
+I completed the Google Cybersecurity Certificate and built this portfolio to organize the labs, exercises, and applied learning that support my transition toward entry-level Cybersecurity Analyst and  Security Operations Center (SOC) Analyst work. Each project is written as a learning record: objectives, methods, evidence, findings, and recommendations are separated so they reflect what was actually observed or practiced in a safe lab environment.
 
 ## Skills explored
 
