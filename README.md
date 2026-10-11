@@ -8,7 +8,7 @@ I completed the Google Cybersecurity Certificate and built this portfolio to org
 
 ## Skills explored
 
-- Security operations: alert review, event triage, incident documentation, and IOC tracking
+- Security operations: alert review, event triage, incident documentation, and indicator of compromise (IOC) tracking
 - Network security: TCP/IP, packet inspection, protocol behavior, and traffic analysis
 - Risk and compliance: asset identification, control mapping, risk assessment, and recommendations
 - Linux: command-line navigation, file permissions, user management, and system inspection
