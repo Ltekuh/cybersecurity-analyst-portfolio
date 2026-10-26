@@ -1,73 +1,64 @@
 # Cybersecurity Analyst Portfolio
 
-Welcome to my cybersecurity portfolio. This repository captures my learning journey, hands-on labs, and foundational projects in entry-level cybersecurity analysis. I use it to document the concepts, tools, and reasoning patterns I practiced while completing the Google Cybersecurity Certificate.
+This repository documents my learning and hands-on practice in cybersecurity. It brings together coursework, lab exercises, analysis write-ups, and beginner-friendly projects completed while working toward entry-level Cybersecurity Analyst and Security Operations Center (SOC) Analyst roles.
 
-## About this portfolio
+The examples are educational and use fictional scenarios, sanitized data, or authorized lab environments. They demonstrate what I practiced; they are not claims of professional experience.
 
-I completed the Google Cybersecurity Certificate and built this portfolio to organize the labs, exercises, and applied learning that support my transition toward entry-level Cybersecurity Analyst and  Security Operations Center (SOC) Analyst work. Each project is written as a learning record: objectives, methods, evidence, findings, and recommendations are separated so they reflect what was actually observed or practiced in a safe lab environment.
+## Portfolio contents
 
-## Skills explored
-
-- Security operations: alert review, event triage, incident documentation, and indicator of compromise (IOC) tracking
-- Network security: TCP/IP, packet inspection, protocol behavior, and traffic analysis
-- Risk and compliance: asset identification, control mapping, risk assessment, and recommendations
-- Linux: command-line navigation, file permissions, user management, and system inspection
-- SQL: filtering records, reviewing access events, and extracting relevant facts from data
-- Python: beginner automation for log review, validation, and repeatable security tasks
-- Threat modeling and application security: identifying threats, trust boundaries, and mitigations
-
-> These skills reflect coursework and simulated exercises I completed in a learning environment. They are educational examples and do not imply professional experience.
-
-## Project index
-
-| Area | What is documented |
+| Section | Overview |
 |---|---|
-| [Certificate and Skills](00-certificate-and-skills/README.md) | Certificate details, coursework modules, and skills inventory |
-| [Security Fundamentals](01-security-fundamentals/README.md) | Core principles such as CIA, least privilege, defense in depth, and control mapping |
-| [Risk and Compliance](02-risk-and-compliance/README.md) | Risk register, likelihood/impact ratings, and mitigation recommendations |
-| [Network Security](03-network-security/README.md) | Wireshark packet analysis and network traffic observations |
-| [Linux and SQL](04-linux-and-sql/README.md) | Linux permissions exercises and SQL evidence review examples |
-| [Detection and Incident Response](05-detection-and-incident-response/README.md) | SOC-style alert triage and incident reporting |
-| [Python Automation](06-python-automation/README.md) | A practical automation script for log parsing and repeated security checks |
-| [Threat Modeling and Web Security](07-threat-modeling-and-web-security/README.md) | Threat model for a small web application and recommended mitigations |
-| [Security Hardening](08-security-hardening/README.md) | Baseline hardening steps for a Linux test system |
-| [Templates](templates/README.md) | Reusable writing templates for notes, incident reports, and risk assessments |
+| [Certificate and Skills](00-certificate-and-skills/README.md) | Google Cybersecurity Certificate coursework and skills practiced |
+| [Security Fundamentals](01-security-fundamentals/README.md) | Core security principles, controls, and a small-business scenario |
+| [Risk and Compliance](02-risk-and-compliance/README.md) | Scenario-based risk assessment, risk register, and mitigation planning |
+| [Network Security](03-network-security/README.md) | Wireshark packet-analysis lab and traffic observations |
+| [Linux and SQL](04-linux-and-sql/README.md) | Linux permissions and SQL-based review of fictional access events |
+| [Detection and Incident Response](05-detection-and-incident-response/README.md) | SOC-style alert triage and incident documentation |
+| [Python Automation](06-python-automation/README.md) | A Python script for reviewing a sample authentication log |
+| [Threat Modeling and Web Security](07-threat-modeling-and-web-security/README.md) | Threat scenarios and mitigations for a fictional web application |
+| [Security Hardening](08-security-hardening/README.md) | A baseline hardening checklist for a Linux lab system |
+| [Templates](templates/README.md) | Reusable templates for lab notes, incident reports, and risk assessments |
 
-## How to read a project
+## Getting started
 
-Each project follows the same structure so the work stays consistent and evidence-based:
+Browse the sections above to explore each exercise. Project write-ups describe their objectives, methods, observations, limitations, and recommendations.
 
-1. Objective - the question or skill being practiced
-2. Environment and tools - what was used and whether it was simulated
-3. Method - the steps taken in a safe lab or authorized exercise
-4. Evidence and findings - the commands, screenshots, logs, or tables used
-5. Analysis - what the evidence supports and what remains uncertain
-6. Recommendations - realistic next steps for defense or improvement
-7. Lessons learned - what I learned and what I would improve next
+To run the sample log-analysis script, install Python 3.10 or later and run this command from the repository root:
 
-## Tools and platforms
+```powershell
+python .\06-python-automation\log_analyzer.py .\06-python-automation\sample_auth.log
+```
 
-I only include tools when I actually used them in a lab or practice activity. Common tools reflected in this portfolio include Wireshark, Linux shell commands, SQL queries, Python scripts, and SIEM-style alert review exercises.
+The script uses Python's standard library and does not require additional packages. See the [Python Automation project](06-python-automation/README.md) for details and limitations.
 
-## Responsible use and privacy
+## Skills practiced
 
-- Use only authorized labs, systems, and packet captures.
-- Do not upload passwords, API keys, tokens, personal data, private network captures, or confidential course material.
-- Use fictional or sanitized examples in public reports.
-- Do not claim a simulated event was a real security incident in a production environment.
-- Separate observed facts from assumptions, hypotheses, and conclusions.
-- Include limitations and cite external references where relevant.
+- Security fundamentals, risk assessment, and control mapping
+- Network traffic and packet analysis with Wireshark
+- Linux command-line use and file permissions
+- SQL queries for reviewing fictional access events
+- Python basics for simple security-related automation
+- Alert triage, incident documentation, and evidence-based reporting
+- Threat modeling, application security, and security hardening
+
+These skills were practiced through coursework and simulated exercises. Findings distinguish observable evidence from assumptions and note relevant limitations.
 
 ## Certificate
 
-**Google Cybersecurity Certificate - Completed**
+**Google Cybersecurity Certificate — completed**
 
-- Credential link: https://coursera.org/share/df43041e6c50ae8d4b0e68ec934fbf1c
-- Completion date: October 09, 2026
+- [Credential](https://coursera.org/share/df43041e6c50ae8d4b0e68ec934fbf1c)
+- Completion date: October 9, 2026
+- Coursework details and module credentials: [Certificate and Skills](00-certificate-and-skills/README.md)
 
-## Career focus
+## Responsible use
 
-I am building practical foundations for entry-level Cybersecurity Analyst and SOC Analyst roles, with an emphasis on clear investigation notes, evidence-based reasoning, and actionable security recommendations.
+- Use tools and techniques only in authorized labs, systems, and exercises.
+- Do not publish passwords, tokens, personal information, confidential course materials, or private network captures.
+- Use fictional or sanitized examples in public documentation.
+- Do not present simulated activity as a real incident.
+- Support conclusions with evidence, state uncertainty, and document limitations.
 
 ---
-*Portfolio status: active and populated with coursework, lab notes, and beginner-friendly security projects.*
+
+*Portfolio status: active; coursework, lab notes, and projects are added as learning progresses.*
