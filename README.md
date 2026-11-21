@@ -2,6 +2,8 @@
 
 This repository documents my learning and hands-on practice in cybersecurity. It brings together coursework, lab exercises, analysis write-ups, and beginner-friendly projects completed while working toward entry-level Cybersecurity Analyst and Security Operations Center (SOC) Analyst roles.
 
+I completed the Google Cybersecurity Certificate and built this portfolio to organize the labs, exercises, and applied learning that support my transition toward entry-level analyst work. Each project is written as a learning record, separating objectives, methods, evidence, findings, and recommendations.
+
 The examples are educational and use fictional scenarios, sanitized data, or authorized lab environments. They demonstrate what I practiced; they are not claims of professional experience.
 
 ## Portfolio contents
@@ -22,6 +24,16 @@ The examples are educational and use fictional scenarios, sanitized data, or aut
 ## Getting started
 
 Browse the sections above to explore each exercise. Project write-ups describe their objectives, methods, observations, limitations, and recommendations.
+
+Project write-ups follow a consistent, evidence-based structure:
+
+1. Objective — the question or skill being practiced
+2. Environment and tools — what was used and whether it was simulated
+3. Method — the steps taken in a safe lab or authorized exercise
+4. Evidence and findings — the commands, screenshots, logs, or tables used
+5. Analysis — what the evidence supports and what remains uncertain
+6. Recommendations — realistic next steps for defense or improvement
+7. Lessons learned — what I learned and what I would improve next
 
 To run the sample log-analysis script, install Python 3.10 or later and run this command from the repository root:
 
@@ -54,10 +66,11 @@ These skills were practiced through coursework and simulated exercises. Findings
 ## Responsible use
 
 - Use tools and techniques only in authorized labs, systems, and exercises.
-- Do not publish passwords, tokens, personal information, confidential course materials, or private network captures.
+- Do not publish passwords, API keys, tokens, personal information, confidential course materials, or private network captures.
 - Use fictional or sanitized examples in public documentation.
 - Do not present simulated activity as a real incident.
-- Support conclusions with evidence, state uncertainty, and document limitations.
+- Support conclusions with evidence, separate observations from assumptions, state uncertainty, and document limitations.
+- Cite external references where relevant.
 
 ---
 
